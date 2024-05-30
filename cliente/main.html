@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda</title>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN y js necesarios -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Fontawesome para iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="main.html">
+            <img src="img/logo_contactos.jpg" alt="agenda" class="d-inline-block align-top" style="height: 30px;"/>
+            <span>Contactos</span>
+        </a>
+    </nav>
+    <main class="p-4 d-flex flex-column">
+        <div class="d-flex flex-row justify-content-between">
+            <button class="btn btn-primary m-2">Nuevo contacto</button>
+            <input type="text" id="search" class="form-control w-25"/>
+        </div>
+        <table class="table table-striped table-hover" id="tabla">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre<span style="cursor: pointer;" class="fas fa-sort" id="ordenar_nombre"></span></th>
+                    <th>Apellidos</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                    <th>Fecha C</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-table">
+                
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

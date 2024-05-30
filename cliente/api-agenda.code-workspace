@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../api-agenda"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cliente"
+	}
+}
